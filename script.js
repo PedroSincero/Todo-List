@@ -8,7 +8,7 @@ getButton.addEventListener('click',function(){
 
 let getOL = document.getElementById('lista-tarefas');
 let createLi = document.createElement('li');
-
+createLi.classList = 'listinha';
 createLi.innerText = getTexto.value;
 getOL.appendChild(createLi);
 });
