@@ -22,4 +22,4 @@ getOL.addEventListener('click', function(event){
 });
 
 //Agradecimentos ao Daniel Roberto Turma 10 Tribo B
-// Agradecimentos ao Site https://www.horadecodar.com.br/2020/12/15/como-pegar-valor-de-input-com-javascript/ ; https://cursos.alura.com.br/forum/topico-limpando-a-caixa-de-texto-20395
+// Agradecimentos aos Sites https://www.horadecodar.com.br/2020/12/15/como-pegar-valor-de-input-com-javascript/ ; https://cursos.alura.com.br/forum/topico-limpando-a-caixa-de-texto-20395
