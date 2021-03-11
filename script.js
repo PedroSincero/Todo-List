@@ -19,20 +19,7 @@ getOL.addEventListener('click', function(event){
         getLista[index].classList.remove('cinza');
         event.target.classList.add('cinza');
     }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
 
 //Agradecimentos ao Daniel Roberto Turma 10 Tribo B
 // Agradecimentos ao Site https://www.horadecodar.com.br/2020/12/15/como-pegar-valor-de-input-com-javascript/ ; https://cursos.alura.com.br/forum/topico-limpando-a-caixa-de-texto-20395
