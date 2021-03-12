@@ -18,6 +18,7 @@ getOL.addEventListener('click', function(event){
         event.target.classList.add('cinza');
     }
 });
+
 getOL.addEventListener('dblclick', function(event){
     let getLista = document.getElementsByClassName('lista');
         if(event.target.classList.contains('completed')) {
@@ -33,8 +34,17 @@ getClear.addEventListener('click', function(){
     while(getOL.firstChild) {
         getOL.removeChild(getOL.firstChild)
     }
-})
+});
 
+let getFinish = document.getElementById('remover-finalizados');
+getFinish.addEventListener('click', function(){
+    let getCompletedAll = document.querySelectorAll('.completed');
+    for (let index = 0; index < getCompletedAll.length; index += 1) {
+        if (getCompletedAll[index].classList.contains('completed')) {
+            getOL.removeChild(getCompletedAll[index]);
+        }
+    }
+});
 
 // Agradecimentos aos Sites https://www.horadecodar.com.br/2020/12/15/como-pegar-valor-de-input-com-javascript/ ; https://cursos.alura.com.br/forum/topico-limpando-a-caixa-de-texto-20395
 //Agradecimentos ao Daniel Roberto Turma 10 Tribo B
